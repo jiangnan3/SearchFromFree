@@ -1,4 +1,4 @@
 # SearchFromFree
 Provide the source code for key functions of SearchFromFree paper
 
-***the rest comming soon ***
+A more detailed README file will be available soon.
