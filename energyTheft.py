@@ -43,6 +43,6 @@ def reverseOrder(inputArray):
     for row in range(inputArray.shape[0]):
         rowLine = []
         for col in range(inputArray.shape[1]):
-            rowLine.append(inputArray[col][inputArray.shape[1]-col-1])
+            rowLine.append(inputArray[row][inputArray.shape[1]-col-1])
         reverseMatrix.append(rowLine)
     return np.array(reverseMatrix)
